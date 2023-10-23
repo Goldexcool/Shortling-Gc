@@ -331,7 +331,8 @@
         width: 300px;
     }
     .hero_article h2 {
-        width: 300px;
+        font-size: 20px;
+        width: 310px;
     }
     .ls_article h1 {
         text-align: center;
