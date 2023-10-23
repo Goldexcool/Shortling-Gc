@@ -106,7 +106,7 @@ const Navbar = () => {
               className="bx bx-moon"
               ref={themeButton}
               onClick={handleButtonClick}
-              style={{ color: "gray", fontSize: "20px" }}
+              style={{ color: "gray", fontSize: "20px", cursor: "pointer"}}
             ></i>
 
             {/* <box-icon name='moon' color='gray' ></box-icon> */}
