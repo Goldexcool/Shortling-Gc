@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+:root {
+  /* Colors */
+  /* Primary */
+  --Cyan: hsl(180, 66%, 49%);
+  --DarkViolet: hsl(257, 27%, 26%);
+  --headercyan: rgb(124, 226, 226);
+  --white: white;
+  --fill: #34313D;
+ 
+
+    /* Secondary */
+    --Red: hsl(0, 87%, 67%);
+
+  /* Neutral */
+  --Gray: hsl(0, 0%, 75%);
+  --GrayishViolet: hsl(257, 7%, 63%);
+  --VeryDarkBlue: hsl(255, 11%, 22%);
+  --VeryDarkViolet: hsl(260, 8%, 14%);
+}
+
+body.darktheme {
+  --headercyan: white;
+  --DarkViolet: hsl(257, 27%, 26%);
+  --GrayishViolet: hsl(257, 7%, 63%);
+  --white: hsl(260, 8%, 14%);
+  --VeryDarkBlue: rgb(246, 249, 252);
+  --fill: #706c80;
+
+}
+html{
+  scroll-behavior: smooth;
+
+}
+body{
+  background-color: var(--white);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+::-webkit-scrollbar {
+  width: .7rem;
+  background: var(--Cyan);
+}
+
+::-webkit-scrollbar-thumb {
+  background: (--Cyan);
+}
